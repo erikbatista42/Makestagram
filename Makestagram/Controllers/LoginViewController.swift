@@ -18,6 +18,7 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var loginButton: UIButton!
     
+    let user: FIRUser? = Auth.auth().currentUser
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,35 +36,28 @@ class LoginViewController: UIViewController {
 }
 
 extension LoginViewController: FUIAuthDelegate {
-    func authUI(_ authUI: FUIAuth, didSignInWith user: FIRUser?, error: Error?) {
-        
-        if let err = error {
-            assertionFailure("Failed to sign in : \(err.localizedDescription)")
+    func authUI(_ authUI: FUIAuth, didSignInWith authDataResult: AuthDataResult?, error: Error?) {
+        if let error = error {
+            assertionFailure("Error signing in: \(error.localizedDescription)")
             return
         }
-        
-        guard let user = user else { return }
-        
-        let userRef = Database.database().reference().child("users").child(user.uid)
-        
+    guard let user = authDataResult?.user else { return }
+    
+    let userRef = Database.database().reference().child("users").child(user.uid)
+    
         userRef.observeSingleEvent(of: .value, with: { (snapshot) in
-            
-            // retrive user data from snapshot
-            if let user = User(snapshot: snapshot) {
-                 print("Welcome back, \(user.username).")
-            } else {
-                print("New user has been created!")
-            }
-            
+            // 4 retrieve user data from snapshot
         })
         
+        userRef.observeSingleEvent(of: .value, with: { [unowned self] (snapshot) in
+            if let user = User(snapshot: snapshot) {
+                print("Welcome back, \(user.username).")
+            } else {
+                self.performSegue(withIdentifier: "toCreateUsername", sender: self)
+            }
+        })
     }
 }
-
-
-
-
-
 
 
 

@@ -18,6 +18,7 @@
 		FE5F447220F427EA000B1ADF /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5F447120F427EA000B1ADF /* Login.storyboard */; };
 		FE5F447420F42904000B1ADF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F447320F42904000B1ADF /* LoginViewController.swift */; };
 		FE5F447620F65B97000B1ADF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F447520F65B97000B1ADF /* User.swift */; };
+		FE5F447A20F6A2CD000B1ADF /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F447920F6A2CD000B1ADF /* CreateUsernameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		FE5F447120F427EA000B1ADF /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		FE5F447320F42904000B1ADF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FE5F447520F65B97000B1ADF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FE5F447920F6A2CD000B1ADF /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				FE5F447320F42904000B1ADF /* LoginViewController.swift */,
+				FE5F447920F6A2CD000B1ADF /* CreateUsernameViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				FE5F447620F65B97000B1ADF /* User.swift in Sources */,
 				FE5F447420F42904000B1ADF /* LoginViewController.swift in Sources */,
 				FE5F445420F3FF52000B1ADF /* ViewController.swift in Sources */,
+				FE5F447A20F6A2CD000B1ADF /* CreateUsernameViewController.swift in Sources */,
 				FE5F445220F3FF52000B1ADF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
