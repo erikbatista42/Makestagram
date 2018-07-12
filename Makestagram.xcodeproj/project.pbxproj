@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CA3277BC1A0C4F8154EA3F92 /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60D7A19F87F6796A13FB7CF /* Pods_Makestagram.framework */; };
 		FE5F445220F3FF52000B1ADF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F445120F3FF52000B1ADF /* AppDelegate.swift */; };
-		FE5F445420F3FF52000B1ADF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F445320F3FF52000B1ADF /* ViewController.swift */; };
 		FE5F445720F3FF52000B1ADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5F445520F3FF52000B1ADF /* Main.storyboard */; };
 		FE5F445920F3FF52000B1ADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5F445820F3FF52000B1ADF /* Assets.xcassets */; };
 		FE5F445C20F3FF52000B1ADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5F445A20F3FF52000B1ADF /* LaunchScreen.storyboard */; };
@@ -30,7 +29,6 @@
 		DAE1021379DE943B53E97EFE /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
 		FE5F444E20F3FF52000B1ADF /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5F445120F3FF52000B1ADF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE5F445320F3FF52000B1ADF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FE5F445620F3FF52000B1ADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE5F445820F3FF52000B1ADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE5F445B20F3FF52000B1ADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -172,7 +170,6 @@
 		FE5F446C20F415EA000B1ADF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FE5F445320F3FF52000B1ADF /* ViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -330,7 +327,6 @@
 				FE5F447420F42904000B1ADF /* LoginViewController.swift in Sources */,
 				FE5F447C20F6DD2E000B1ADF /* UserService.swift in Sources */,
 				FE5F448020F6E5ED000B1ADF /* Storyboard+Utility.swift in Sources */,
-				FE5F445420F3FF52000B1ADF /* ViewController.swift in Sources */,
 				FE5F447E20F6E559000B1ADF /* Constants.swift in Sources */,
 				FE5F447A20F6A2CD000B1ADF /* CreateUsernameViewController.swift in Sources */,
 				FE5F445220F3FF52000B1ADF /* AppDelegate.swift in Sources */,
