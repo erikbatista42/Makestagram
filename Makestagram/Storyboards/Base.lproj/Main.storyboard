@@ -28,10 +28,10 @@
             </objects>
             <point key="canvasLocation" x="20" y="282"/>
         </scene>
-        <!--View Controller-->
+        <!--Find Friends View Controller-->
         <scene sceneID="Z3m-f4-1RC">
             <objects>
-                <viewController id="ZBJ-we-Ahe" sceneMemberID="viewController">
+                <viewController id="ZBJ-we-Ahe" customClass="FindFriendsViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="alC-mv-SoC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,10 +46,10 @@
             </objects>
             <point key="canvasLocation" x="889" y="-27"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="VG0-Qg-7n8">
             <objects>
-                <viewController id="2GX-Lt-b6i" sceneMemberID="viewController">
+                <viewController id="2GX-Lt-b6i" customClass="HomeViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pAW-fe-0bQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
