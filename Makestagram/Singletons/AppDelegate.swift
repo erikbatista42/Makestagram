@@ -17,13 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
+    
         
-        let storyboard = UIStoryboard(name: "Login", bundle: .main)
-        
-        if let intialViewController = storyboard.instantiateInitialViewController() {
-            window?.rootViewController = intialViewController
-            window?.makeKeyAndVisible()
-        }
+        let initialViewController = UIStoryboard.initialViewController(for: .main)
+        initialViewController.view.window?.rootViewController = initialViewController
+        initialViewController.view.window?.makeKeyAndVisible()
         
         return true
     }

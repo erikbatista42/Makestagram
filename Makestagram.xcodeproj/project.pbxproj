@@ -20,6 +20,8 @@
 		FE5F447620F65B97000B1ADF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F447520F65B97000B1ADF /* User.swift */; };
 		FE5F447A20F6A2CD000B1ADF /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F447920F6A2CD000B1ADF /* CreateUsernameViewController.swift */; };
 		FE5F447C20F6DD2E000B1ADF /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F447B20F6DD2E000B1ADF /* UserService.swift */; };
+		FE5F447E20F6E559000B1ADF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F447D20F6E559000B1ADF /* Constants.swift */; };
+		FE5F448020F6E5ED000B1ADF /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F447F20F6E5ED000B1ADF /* Storyboard+Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		FE5F447520F65B97000B1ADF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FE5F447920F6A2CD000B1ADF /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
 		FE5F447B20F6DD2E000B1ADF /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		FE5F447D20F6E559000B1ADF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FE5F447F20F6E5ED000B1ADF /* Storyboard+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utility.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,7 @@
 		FE5F446820F415B0000B1ADF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				FE5F447F20F6E5ED000B1ADF /* Storyboard+Utility.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 				FE5F445820F3FF52000B1ADF /* Assets.xcassets */,
 				FE5F445D20F3FF52000B1ADF /* Info.plist */,
 				FE5F446D20F416A0000B1ADF /* GoogleService-Info.plist */,
+				FE5F447D20F6E559000B1ADF /* Constants.swift */,
 			);
 			path = "Supporting files";
 			sourceTree = "<group>";
@@ -323,7 +329,9 @@
 				FE5F447620F65B97000B1ADF /* User.swift in Sources */,
 				FE5F447420F42904000B1ADF /* LoginViewController.swift in Sources */,
 				FE5F447C20F6DD2E000B1ADF /* UserService.swift in Sources */,
+				FE5F448020F6E5ED000B1ADF /* Storyboard+Utility.swift in Sources */,
 				FE5F445420F3FF52000B1ADF /* ViewController.swift in Sources */,
+				FE5F447E20F6E559000B1ADF /* Constants.swift in Sources */,
 				FE5F447A20F6A2CD000B1ADF /* CreateUsernameViewController.swift in Sources */,
 				FE5F445220F3FF52000B1ADF /* AppDelegate.swift in Sources */,
 			);
